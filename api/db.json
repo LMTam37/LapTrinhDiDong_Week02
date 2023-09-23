@@ -1,8 +1,13 @@
 {
-    "users":[
-        {
-            "id":1,
-            "name": "La Minh Tam"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "La Minh Tam"
+    },
+    {
+      "firstname": "John",
+      "lastname": "Snow",
+      "id": 2
+    }
+  ]
 }
