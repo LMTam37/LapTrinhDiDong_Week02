@@ -1,21 +1,21 @@
-let myPromise = new Promise(function (resolve, reject) {
+let promise = new Promise(function (resolve, reject) {
     resolve();
     reject();
 })
 
-myPromise
+promise
     .then(
         function () {
-            console.log('Successful!');
+            console.log('1!');
         }
     )
-    .catch(
+    .then(
         function () {
-            console.log('UnSuccessful!');
+            console.log('2!');
         }
     )
-    .finally(
+    .then(
         function () {
-            console.log('Finally!');
+            console.log('3!');
         }
-    );
+    )
